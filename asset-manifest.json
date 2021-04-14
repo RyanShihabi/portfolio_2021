@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.a989277b.chunk.css",
-    "main.js": "/portfolio/static/js/main.8f11796e.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.8f11796e.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.fffdf0d7.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.fffdf0d7.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.21a3b3a9.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.21a3b3a9.js.map",
     "static/js/2.4f362dba.chunk.js": "/portfolio/static/js/2.4f362dba.chunk.js",
@@ -15,17 +15,17 @@
     "static/media/Prediction7312020.74dac546.jpg": "/portfolio/static/media/Prediction7312020.74dac546.jpg",
     "static/media/Results7312020.77669c58.jpg": "/portfolio/static/media/Results7312020.77669c58.jpg",
     "static/media/Rycenter.ccda3625.JPG": "/portfolio/static/media/Rycenter.ccda3625.JPG",
-    "static/media/airdraw.7df2d660.gif": "/portfolio/static/media/airdraw.7df2d660.gif",
     "static/media/close.5ad82b9f.mp3": "/portfolio/static/media/close.5ad82b9f.mp3",
+    "static/media/draw.3a94a6c9.JPG": "/portfolio/static/media/draw.3a94a6c9.JPG",
     "static/media/nvda.f92ffc05.JPG": "/portfolio/static/media/nvda.f92ffc05.JPG",
-    "static/media/omnimed.622ac391.gif": "/portfolio/static/media/omnimed.622ac391.gif",
+    "static/media/omnimed.735d799f.JPG": "/portfolio/static/media/omnimed.735d799f.JPG",
     "static/media/open.35b0c319.mp3": "/portfolio/static/media/open.35b0c319.mp3",
-    "static/media/portfolio_cdl.326a38ff.gif": "/portfolio/static/media/portfolio_cdl.326a38ff.gif"
+    "static/media/portfolio_cdl.8a54d6af.JPG": "/portfolio/static/media/portfolio_cdl.8a54d6af.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.21a3b3a9.js",
     "static/js/2.4f362dba.chunk.js",
     "static/css/main.a989277b.chunk.css",
-    "static/js/main.8f11796e.chunk.js"
+    "static/js/main.fffdf0d7.chunk.js"
   ]
 }
