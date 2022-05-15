@@ -1,32 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.26dcc83f.chunk.css",
-    "main.js": "/portfolio/static/js/main.55f09f1d.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.55f09f1d.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.21a3b3a9.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.21a3b3a9.js.map",
-    "static/js/2.d7fcb935.chunk.js": "/portfolio/static/js/2.d7fcb935.chunk.js",
-    "static/js/2.d7fcb935.chunk.js.map": "/portfolio/static/js/2.d7fcb935.chunk.js.map",
-    "static/js/3.cfa70aa2.chunk.js": "/portfolio/static/js/3.cfa70aa2.chunk.js",
-    "static/js/3.cfa70aa2.chunk.js.map": "/portfolio/static/js/3.cfa70aa2.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.659a7f45.css",
+    "main.js": "/portfolio/static/js/main.2b30c80e.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/headshot.png": "/portfolio/static/media/headshot.f3190dce949264e2986a.png",
+    "static/media/labels.png": "/portfolio/static/media/labels.f2cf209426224ef824fd.png",
+    "static/media/detection.png": "/portfolio/static/media/detection.2af427b6af256eb82f1f.png",
+    "static/media/Rycenter.JPG": "/portfolio/static/media/Rycenter.ccda362500b30f05c36f.JPG",
+    "static/media/close.mp3": "/portfolio/static/media/close.5ad82b9fb7e53baa65d5.mp3",
+    "static/media/open.mp3": "/portfolio/static/media/open.35b0c319ec0d00f9a730.mp3",
+    "static/media/portfolio_cdl.JPG": "/portfolio/static/media/portfolio_cdl.8a54d6affa2accab3f49.JPG",
+    "static/media/omnimed.JPG": "/portfolio/static/media/omnimed.735d799fa2071d2a6f72.JPG",
+    "static/media/nvda.JPG": "/portfolio/static/media/nvda.f92ffc0583360f74b225.JPG",
+    "static/media/Results7312020.jpg": "/portfolio/static/media/Results7312020.77669c58be0fce23d9b6.jpg",
+    "static/media/Prediction7312020.jpg": "/portfolio/static/media/Prediction7312020.74dac546d97037a2b404.jpg",
     "index.html": "/portfolio/index.html",
-    "static/css/main.26dcc83f.chunk.css.map": "/portfolio/static/css/main.26dcc83f.chunk.css.map",
-    "static/js/2.d7fcb935.chunk.js.LICENSE.txt": "/portfolio/static/js/2.d7fcb935.chunk.js.LICENSE.txt",
-    "static/media/Prediction7312020.74dac546.jpg": "/portfolio/static/media/Prediction7312020.74dac546.jpg",
-    "static/media/Results7312020.77669c58.jpg": "/portfolio/static/media/Results7312020.77669c58.jpg",
-    "static/media/Rycenter.ccda3625.JPG": "/portfolio/static/media/Rycenter.ccda3625.JPG",
-    "static/media/close.5ad82b9f.mp3": "/portfolio/static/media/close.5ad82b9f.mp3",
-    "static/media/draw.3a94a6c9.JPG": "/portfolio/static/media/draw.3a94a6c9.JPG",
-    "static/media/nvda.f92ffc05.JPG": "/portfolio/static/media/nvda.f92ffc05.JPG",
-    "static/media/omnimed.735d799f.JPG": "/portfolio/static/media/omnimed.735d799f.JPG",
-    "static/media/open.35b0c319.mp3": "/portfolio/static/media/open.35b0c319.mp3",
-    "static/media/portfolio_cdl.8a54d6af.JPG": "/portfolio/static/media/portfolio_cdl.8a54d6af.JPG",
-    "static/media/profile.357903f7.jpg": "/portfolio/static/media/profile.357903f7.jpg"
+    "main.659a7f45.css.map": "/portfolio/static/css/main.659a7f45.css.map",
+    "main.2b30c80e.js.map": "/portfolio/static/js/main.2b30c80e.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.21a3b3a9.js",
-    "static/js/2.d7fcb935.chunk.js",
-    "static/css/main.26dcc83f.chunk.css",
-    "static/js/main.55f09f1d.chunk.js"
+    "static/css/main.659a7f45.css",
+    "static/js/main.2b30c80e.js"
   ]
 }
