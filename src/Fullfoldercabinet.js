@@ -10,7 +10,7 @@ const closeCabinet = new Audio(closeSound);
 
 export default function Model(props) {
   const group = useRef()
-  const { nodes, materials } = useGLTF('/fullfoldercabinet.glb')
+  const { nodes, materials } = useGLTF('./fullfoldercabinet.glb')
 
   const handleTopOpen = () => {
     props.setTopOpen(!props.topOpen);
@@ -129,4 +129,4 @@ export default function Model(props) {
   )
 }
 
-useGLTF.preload('/fullfoldercabinet.glb')
+useGLTF.preload('./fullfoldercabinet.glb')

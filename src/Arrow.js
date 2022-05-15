@@ -4,7 +4,7 @@ import * as THREE from 'three'
 
 export default function Model(props) {
   const group = useRef()
-  const { nodes } = useGLTF('/arrow.glb')
+  const { nodes } = useGLTF('./arrow.glb')
 
   const arrowClick = () => {
     props.setArrow(!props.arrow)
@@ -17,4 +17,4 @@ export default function Model(props) {
   )
 }
 
-useGLTF.preload('/arrow.glb')
+useGLTF.preload('./arrow.glb')

@@ -4,7 +4,7 @@ import * as THREE from 'three';
 
 export default function Model(props) {
   const group = useRef();
-  const { nodes, materials } = useGLTF('/LinkedIn.glb');
+  const { nodes, materials } = useGLTF('./LinkedIn.glb');
 
   const onClick = () => {
     window.location.href = "https://www.linkedin.com/in/ryan-shihabi";
@@ -20,4 +20,4 @@ export default function Model(props) {
   );
 }
 
-useGLTF.preload('/LinkedIn.glb');
+useGLTF.preload('./LinkedIn.glb');
