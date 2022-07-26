@@ -2,9 +2,11 @@ import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 import * as THREE from 'three'
 
+import Arrow from "./arrow.glb"
+
 export default function Model(props) {
   const group = useRef()
-  const { nodes } = useGLTF('./arrow.glb')
+  const { nodes } = useGLTF(Arrow)
 
   const arrowClick = () => {
     props.setArrow(!props.arrow)
@@ -17,4 +19,4 @@ export default function Model(props) {
   )
 }
 
-useGLTF.preload('./arrow.glb')
+useGLTF.preload(Arrow)

@@ -2,9 +2,11 @@ import React, { useRef } from 'react';
 import { useGLTF } from '@react-three/drei';
 import * as THREE from 'three';
 
+import LinkedIn from "./LinkedIn.glb"
+
 export default function Model(props) {
   const group = useRef();
-  const { nodes, materials } = useGLTF('./LinkedIn.glb');
+  const { nodes, materials } = useGLTF(LinkedIn);
 
   const onClick = () => {
     window.location.href = "https://www.linkedin.com/in/ryan-shihabi";
@@ -20,4 +22,4 @@ export default function Model(props) {
   );
 }
 
-useGLTF.preload('./LinkedIn.glb');
+useGLTF.preload(LinkedIn);

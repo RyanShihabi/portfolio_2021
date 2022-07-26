@@ -1,16 +1,19 @@
 import React, { useRef } from 'react'
 import * as THREE from 'three'
+import { applyProps } from '@react-three/fiber'
 import { useGLTF } from '@react-three/drei'
 import { useSpring, a } from '@react-spring/three'
 import openSound from './sounds/open.mp3'
 import closeSound from './sounds/close.mp3'
+
+import Cabinet from "./fullfoldercabinet.glb"
 
 const openCabinet = new Audio(openSound);
 const closeCabinet = new Audio(closeSound);
 
 export default function Model(props) {
   const group = useRef()
-  const { nodes, materials } = useGLTF('./fullfoldercabinet.glb')
+  const { nodes, materials } = useGLTF(Cabinet)
 
   const handleTopOpen = () => {
     props.setTopOpen(!props.topOpen);
@@ -58,6 +61,15 @@ export default function Model(props) {
     config: {duration: 1000},
     position: props.bottomOpen ? [-17, 3, 13] : [-17, 3, 0]
   });
+
+  applyProps(materials.base, { metalness: 0.6 })
+  applyProps(materials['base.005'], { metalness: 0.6 })
+  applyProps(materials['base.006'], { metalness: 0.6 })
+  applyProps(materials['base.007'], { metalness: 0.6 })
+  applyProps(materials['base.008'], { metalness: 0.6 })
+  // applyProps(materials['handles.003'], { metalness: 1 })
+  // applyProps(materials['handles.004'], { metalness: 1 })
+  // applyProps(materials['handles.005'], { metalness: 1 })
 
   return (
     <group ref={group} {...props} dispose={null} position={props.position} rotation={[0, -Math.PI/3.5, 0]} scale={props.scale} >
@@ -129,4 +141,4 @@ export default function Model(props) {
   )
 }
 
-useGLTF.preload('./fullfoldercabinet.glb')
+useGLTF.preload(Cabinet)

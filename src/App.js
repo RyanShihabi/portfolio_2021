@@ -44,7 +44,7 @@ const App = () =>{
 
   return(
     <>
-      <Canvas colorManagement shadowMap camera={{ position: [0, 0, 120], fov: 70}}>
+      <Canvas camera={{ position: [0, 0, 120], fov: 70}}>
         <Lights />
         <Suspense fallback={null}>
           <Media queries={{

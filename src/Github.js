@@ -2,9 +2,11 @@ import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 import * as THREE from 'three'
 
+import Github from "./github.glb"
+
 export default function Model(props) {
   const group = useRef()
-  const { nodes, materials } = useGLTF('./github.glb')
+  const { nodes, materials } = useGLTF(Github)
 
   const onClick = () => {
     window.location.href = "https://github.com/RyanShihabi";
@@ -17,4 +19,4 @@ export default function Model(props) {
   )
 }
 
-useGLTF.preload('./github.glb')
+useGLTF.preload(Github)
